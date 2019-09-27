@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class DynamicProgram {
+public class DynamicPlanning {
     /**
      * @Author: PPX
      * @Description: 322.零钱兑换

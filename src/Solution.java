@@ -1,13 +1,7 @@
 import java.util.*;
+import java.util.Stack;
 
 class Solution {
-//    public ListNode reverseK(ListNode head,int k){
-//        if(head.next==null)
-//            return head;
-//        ListNode pre = head;
-//        ListNode mid = head.next;
-//        ListNode
-//    }
     /**
      * @Author: PPX
      * @Description: 找到字符串中所有字母异位词
@@ -47,7 +41,7 @@ class Solution {
      * @Description:
      * @Date: 2019-07-31
      * @Param root:
-     * @return: java.util.List<java.util.List                               <                               java.lang.Integer>>
+     * @return: java.util.List<java.util.List                                                                                                                               <                                                                                                                               java.lang.Integer>>
      **/
     public List<List<Integer>> levelOrder(MultiNode root) {
         List<List<Integer>> res = new ArrayList<>();
@@ -1238,7 +1232,7 @@ class Solution {
     public String addBinary(String a, String b) {
         int m = a.length(), n = b.length();
         StringBuilder sb = new StringBuilder();
-        Stack<Integer> stack = new Stack<>();
+        Stack<Integer> stack = new Stack();
         int i = m - 1, j = n - 1, carry = 0;
         while (i >= 0 || j >= 0) {
             char temp1 = i >= 0 ? a.charAt(i) : '0';

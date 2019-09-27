@@ -1,5 +1,9 @@
+import java.util.Stack;
 import java.util.*;
 
+/**
+ * @Description: 深度优先遍历题
+ */
 public class DFS {
     /**
      * @Author: PPX

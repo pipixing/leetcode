@@ -16,15 +16,13 @@ public class Main {
         BuildTree buildTree = new BuildTree();
         TreeNode root = buildTree.buildTree(nu);
 
-        List<String> ss = new ArrayList<>(Arrays.asList("ale", "apple", "monkey", "plea"));
-
 //        int[] nums = {0, 3, 2, 1, 5, 6, 4};
 //
 //        String s1 = "abba";
 //        String s2 = "dog cat cas dog";
 //
 //        Solution solution = new Solution();
-//        DynamicProgram dp = new DynamicProgram();
+//        DynamicPlanning dp = new DynamicPlanning();
 //        int[] numArray = {1, 17, 5, 10, 13, 15, 10, 5, 16, 8};
 //        int ret = dp.wiggleMaxLength(numArray);
 
@@ -32,12 +30,16 @@ public class Main {
         int[] arrays = {1, 2, 5};
         BuildTree buildTree1 = new BuildTree();
         TreeNode node = buildTree1.buildTree(array);
-        DynamicProgram solution = new DynamicProgram();
+        DynamicPlanning solution = new DynamicPlanning();
         DFS dfs = new DFS();
-        int ret = solution.coinChange(arrays, 10);
+//        int ret = solution.coinChange(arrays, 10);
         //输出结果
 //        for (int num : ret)
-        System.out.println("你的计算机结果是：" + ret);
+        Integer a1 = 101;
+        Integer a2 = 101;
+        int[] a = new int[]{};
+
+        System.out.println(a1 == a2);
 //        for (int s : ret) {
 //            System.out.println(s);
 //        }
